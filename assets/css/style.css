@@ -134,30 +134,35 @@ section {
     margin-bottom: 14px;
 }
 
-/* INFORMASI AKADEMIK */
-.info-grid {
+/* Resume */
+.resume {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 28px;
 }
 
-.info-row {
-    display: grid;
-    grid-template-columns: 180px 16px 1fr;
-    align-items: start;
+.resume-item {
+    max-width: 900px;
 }
 
-.label {
+.resume-item h4 {
+    font-size: 18px;
     font-weight: 600;
     color: #0f172a;
+    margin-bottom: 8px;
+    white-space: nowrap; 
+    padding-left: 50px;
 }
 
-.colon {
-    text-align: center;
-    font-weight: 600;
+.resume-item ul {
+    list-style: disc;
+    margin-left: 60px;   
+    padding-left: 20px;
 }
 
-.value {
+.resume-item li {
+    margin-bottom: 6px;
+    margin-left: 60px;
     line-height: 1.6;
 }
 
